@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setor RH - Cargos e Salários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Setor de Recursos Humanos</h1>
+        <p>Bem-vindo(a) ao painel administrativo</p>
+    </div>
+    
+    <div class="container">
+        <h2>Painel de Controle</h2>
+        <p>Clique no botão abaixo para visualizar os cargos e salários da empresa:</p>
+        
+        <button id="showTableBtn" class="btn">Ver cargos e salários</button>
+        
+        <div id="tableContainer" class="table-container">
+            <h3>Tabela de Cargos e Salários</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Setor</th>
+                        <th>Cargo</th>
+                        <th>Salário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Antônio Carlos</td>
+                        <td>Produção</td>
+                        <td>Supervisor de Linha</td>
+                        <td class="salary">R$ 6.800,00</td>
+                    </tr>
+                    <tr>
+                        <td>Ruth Pereira</td>
+                        <td>Financeiro</td>
+                        <td>Contadora Sênior</td>
+                        <td class="salary">R$ 9.200,00</td>
+                    </tr>
+                    <tr>
+                        <td>Sandra Gomes</td>
+                        <td>RH</td>
+                        <td>Gerente de Recrutamento</td>
+                        <td class="salary">R$ 11.500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Divaldo Santos</td>
+                        <td>TI</td>
+                        <td>Analista de Sistemas</td>
+                        <td class="salary">R$ 8.300,00</td>
+                    </tr>
+                    <tr>
+                        <td>Márcio Oliveira</td>
+                        <td>Vendas</td>
+                        <td>Representante Comercial</td>
+                        <td class="salary">R$ 5.500,00 + Comissão</td>
+                    </tr>
+                    <tr>
+                        <td>Patrícia Lima</td>
+                        <td>Marketing</td>
+                        <td>Coordenadora de Mídias</td>
+                        <td class="salary">R$ 7.900,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
